@@ -8,5 +8,6 @@ pkgs.mkShell {
     curl
     jq
     leiningen
+    stack
   ];
 }
