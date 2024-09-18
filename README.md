@@ -86,6 +86,10 @@ and it pretends to be pure.
 If you have to have IO, then it makes sense to build tooling around Monad, and
 then it makes sense to express all sorts of other things in terms of it.
 
+### When should I use a monad?
+
+Monads excel at building internal DSLs.
+
 ### Composing monads
 
 Monads do not compose. (At least not without a lot of pain.) Generally
